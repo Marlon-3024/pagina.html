@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;  
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los enlaces de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background-color: hsl(216, 100%, 26%);
+    color: #fff;
+}
+
+.centro {
+    display: block; /* Hace que la imagen se muestre como un bloque */
+    max-width: 100%; /* Asegura que la imagen no se salga de su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 10px; /* Agrega esquinas redondeadas a la imagen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra a la imagen */
+  }
+  
+
+.colorido {
+  color: black;
+}
+  
+.fondop {
+  background-color: hsl(230, 100%, 91%);
+}
+
+
+.fondo {
+    background-color: #f2f2f2; /* Color de fondo */
+    
+   
+  background-image: url(https://img.freepik.com/psd-gratis/icono-tienda-linea-ilustracion-procesamiento-3d-aislado_47987-8145.jpg?w=900&t=st=1685315821~exp=1685316421~hmac=a825c8ab6b76d2ffd95c72e10919750cd112ebcca0828bdec5651b1075cc94fe); /* Imagen de fondo */
+  }
+  h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  p {
+    font-family: Georgia, serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
